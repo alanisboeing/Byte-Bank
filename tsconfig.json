@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", //para qual versão será compilado
+        "outDir": "./dist/js/", //pasta destino para as compilações
+        "noEmitOnError": true  //não gera o arquivo js final caso existam erros jo ts
+    },
+    "include": [
+        "./src/**/*" //deve compilar todos os arquivos dentro da parte src
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}
